@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.navigationController setNavigationBarHidden:NO]; // show navigation "back" button
+
     // Do any additional setup after loading the view.
 }
 

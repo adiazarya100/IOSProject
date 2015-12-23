@@ -22,6 +22,7 @@
 		C40898A11C2ACA2D00640F77 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40898A01C2ACA2D00640F77 /* TabBarViewController.m */; };
 		C40898A41C2ACDE000640F77 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40898A31C2ACDE000640F77 /* LoginViewController.m */; };
 		C40898A71C2AD74E00640F77 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40898A61C2AD74E00640F77 /* SignUpViewController.m */; };
+		C46120D01C2B4A6B00305A0B /* SignUpByMailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C46120CF1C2B4A6B00305A0B /* SignUpByMailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		C40898A31C2ACDE000640F77 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		C40898A51C2AD74E00640F77 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
 		C40898A61C2AD74E00640F77 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		C46120CE1C2B4A6B00305A0B /* SignUpByMailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpByMailViewController.h; sourceTree = "<group>"; };
+		C46120CF1C2B4A6B00305A0B /* SignUpByMailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpByMailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +100,7 @@
 		406D115D1C25A4710041FBDF = {
 			isa = PBXGroup;
 			children = (
-				406D11A61C25AF6D0041FBDF /* Gender Neutral User-25.png */,
-				406D11A71C25AF6D0041FBDF /* Megaphone-25.png */,
-				406D11A01C25AD7E0041FBDF /* Camera-25.png */,
-				406D11A11C25AD7E0041FBDF /* Home-25.png */,
-				406D11A21C25AD7E0041FBDF /* Search-25.png */,
+				C46120D11C2B4BB400305A0B /* images */,
 				406D11681C25A4710041FBDF /* Project */,
 				406D11821C25A4710041FBDF /* ProjectTests */,
 				406D118D1C25A4710041FBDF /* ProjectUITests */,
@@ -135,6 +134,8 @@
 				C40898A31C2ACDE000640F77 /* LoginViewController.m */,
 				C40898A51C2AD74E00640F77 /* SignUpViewController.h */,
 				C40898A61C2AD74E00640F77 /* SignUpViewController.m */,
+				C46120CE1C2B4A6B00305A0B /* SignUpByMailViewController.h */,
+				C46120CF1C2B4A6B00305A0B /* SignUpByMailViewController.m */,
 			);
 			path = Project;
 			sourceTree = "<group>";
@@ -163,6 +164,18 @@
 				406D11901C25A4710041FBDF /* Info.plist */,
 			);
 			path = ProjectUITests;
+			sourceTree = "<group>";
+		};
+		C46120D11C2B4BB400305A0B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				406D11A61C25AF6D0041FBDF /* Gender Neutral User-25.png */,
+				406D11A71C25AF6D0041FBDF /* Megaphone-25.png */,
+				406D11A01C25AD7E0041FBDF /* Camera-25.png */,
+				406D11A11C25AD7E0041FBDF /* Home-25.png */,
+				406D11A21C25AD7E0041FBDF /* Search-25.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,6 +316,7 @@
 			files = (
 				C40898A41C2ACDE000640F77 /* LoginViewController.m in Sources */,
 				C40898A71C2AD74E00640F77 /* SignUpViewController.m in Sources */,
+				C46120D01C2B4A6B00305A0B /* SignUpByMailViewController.m in Sources */,
 				C40898A11C2ACA2D00640F77 /* TabBarViewController.m in Sources */,
 				406D116E1C25A4710041FBDF /* AppDelegate.m in Sources */,
 				406D116B1C25A4710041FBDF /* main.m in Sources */,

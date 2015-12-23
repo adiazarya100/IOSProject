@@ -1,21 +1,22 @@
 //
-//  LoginViewController.m
+//  LogViewController.m
 //  Project
 //
 //  Created by tomer aronovsky on 12/23/15.
 //  Copyright © 2015 Adi Azarya. All rights reserved.
 //
 
-#import "LoginViewController.h"
+#import "LogViewController.h"
 
-@interface LoginViewController ()
+@interface LogViewController ()
 
 @end
 
-@implementation LoginViewController
+@implementation LogViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.navigationController setNavigationBarHidden:NO];
 
     // Do any additional setup after loading the view.
 }
@@ -25,14 +26,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-//hiding the navigation "back" button from this page
-- (void)viewWillAppear:(BOOL)animated
-{
-    [self.navigationController setNavigationBarHidden:YES animated:animated];
-    [super viewWillAppear:animated];
-}
-
-
+/*
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -40,11 +34,6 @@
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
 }
+*/
 
-
-
-- (IBAction)SignInButton:(id)sender {
-//check user 
-
-}
 @end
