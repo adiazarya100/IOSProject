@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		406D116B1C25A4710041FBDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 406D116A1C25A4710041FBDF /* main.m */; };
 		406D116E1C25A4710041FBDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 406D116D1C25A4710041FBDF /* AppDelegate.m */; };
-		406D11711C25A4710041FBDF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 406D11701C25A4710041FBDF /* ViewController.m */; };
 		406D11741C25A4710041FBDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 406D11721C25A4710041FBDF /* Main.storyboard */; };
 		406D11761C25A4710041FBDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 406D11751C25A4710041FBDF /* Assets.xcassets */; };
 		406D11791C25A4710041FBDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 406D11771C25A4710041FBDF /* LaunchScreen.storyboard */; };
@@ -20,6 +19,9 @@
 		406D11A51C25AD7E0041FBDF /* Search-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 406D11A21C25AD7E0041FBDF /* Search-25.png */; };
 		406D11A81C25AF6D0041FBDF /* Gender Neutral User-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 406D11A61C25AF6D0041FBDF /* Gender Neutral User-25.png */; };
 		406D11A91C25AF6D0041FBDF /* Megaphone-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 406D11A71C25AF6D0041FBDF /* Megaphone-25.png */; };
+		C40898A11C2ACA2D00640F77 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40898A01C2ACA2D00640F77 /* TabBarViewController.m */; };
+		C40898A41C2ACDE000640F77 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40898A31C2ACDE000640F77 /* LoginViewController.m */; };
+		C40898A71C2AD74E00640F77 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40898A61C2AD74E00640F77 /* SignUpViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +46,6 @@
 		406D116A1C25A4710041FBDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		406D116C1C25A4710041FBDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		406D116D1C25A4710041FBDF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		406D116F1C25A4710041FBDF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		406D11701C25A4710041FBDF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		406D11731C25A4710041FBDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		406D11751C25A4710041FBDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		406D11781C25A4710041FBDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,6 +61,12 @@
 		406D11A21C25AD7E0041FBDF /* Search-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Search-25.png"; sourceTree = "<group>"; };
 		406D11A61C25AF6D0041FBDF /* Gender Neutral User-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gender Neutral User-25.png"; sourceTree = "<group>"; };
 		406D11A71C25AF6D0041FBDF /* Megaphone-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Megaphone-25.png"; sourceTree = "<group>"; };
+		C408989F1C2ACA2D00640F77 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		C40898A01C2ACA2D00640F77 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		C40898A21C2ACDE000640F77 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		C40898A31C2ACDE000640F77 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		C40898A51C2AD74E00640F77 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		C40898A61C2AD74E00640F77 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,13 +124,17 @@
 			children = (
 				406D116C1C25A4710041FBDF /* AppDelegate.h */,
 				406D116D1C25A4710041FBDF /* AppDelegate.m */,
-				406D116F1C25A4710041FBDF /* ViewController.h */,
-				406D11701C25A4710041FBDF /* ViewController.m */,
 				406D11721C25A4710041FBDF /* Main.storyboard */,
 				406D11751C25A4710041FBDF /* Assets.xcassets */,
 				406D11771C25A4710041FBDF /* LaunchScreen.storyboard */,
 				406D117A1C25A4710041FBDF /* Info.plist */,
 				406D11691C25A4710041FBDF /* Supporting Files */,
+				C408989F1C2ACA2D00640F77 /* TabBarViewController.h */,
+				C40898A01C2ACA2D00640F77 /* TabBarViewController.m */,
+				C40898A21C2ACDE000640F77 /* LoginViewController.h */,
+				C40898A31C2ACDE000640F77 /* LoginViewController.m */,
+				C40898A51C2AD74E00640F77 /* SignUpViewController.h */,
+				C40898A61C2AD74E00640F77 /* SignUpViewController.m */,
 			);
 			path = Project;
 			sourceTree = "<group>";
@@ -291,7 +301,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				406D11711C25A4710041FBDF /* ViewController.m in Sources */,
+				C40898A41C2ACDE000640F77 /* LoginViewController.m in Sources */,
+				C40898A71C2AD74E00640F77 /* SignUpViewController.m in Sources */,
+				C40898A11C2ACA2D00640F77 /* TabBarViewController.m in Sources */,
 				406D116E1C25A4710041FBDF /* AppDelegate.m in Sources */,
 				406D116B1C25A4710041FBDF /* main.m in Sources */,
 			);
