@@ -15,27 +15,8 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
-    // Assign tab bar item with titles
-    UITabBarController *tabBarController = (UITabBarController *)self.window.rootViewController;
-    UITabBar *tabBar = tabBarController.tabBar;
-    
-    UITabBarItem *homePage = [tabBar.items objectAtIndex:0];
-    UITabBarItem *searchEngine = [tabBar.items objectAtIndex:1];
-    UITabBarItem *takePhoto = [tabBar.items objectAtIndex:2];
-    UITabBarItem *notifications = [tabBar.items objectAtIndex:3];
-    UITabBarItem *myProfile = [tabBar.items objectAtIndex:4];
-    
-   homePage.title = @" ";
-   searchEngine.title = @" ";
-   takePhoto.title = @" ";
-   notifications.title = @" ";
-   myProfile.title = @" ";
-    
-      //searchEngine.selectedImage = [[UIImage imageNamed:@"SearchEngine3.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
-    //searchEngine.image = [[UIImage imageNamed:@"SearchEngine3.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
-    
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions{
+    // Override point for customization after application launch.
     return YES;
 }
 
