@@ -20,6 +20,10 @@
 		406D11A51C25AD7E0041FBDF /* Search-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 406D11A21C25AD7E0041FBDF /* Search-25.png */; };
 		406D11A81C25AF6D0041FBDF /* Gender Neutral User-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 406D11A61C25AF6D0041FBDF /* Gender Neutral User-25.png */; };
 		406D11A91C25AF6D0041FBDF /* Megaphone-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 406D11A71C25AF6D0041FBDF /* Megaphone-25.png */; };
+		40DCF4471C2AC9FE000939FB /* SLR Back Side Filled-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 40DCF4461C2AC9FE000939FB /* SLR Back Side Filled-25.png */; };
+		40DCF4491C2ACA51000939FB /* Stack of Photos-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 40DCF4481C2ACA51000939FB /* Stack of Photos-25.png */; };
+		40DCF44F1C2ADC01000939FB /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DCF44E1C2ADC01000939FB /* CameraViewController.m */; };
+		40DCF4511C2AE035000939FB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40DCF4501C2AE035000939FB /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +65,11 @@
 		406D11A21C25AD7E0041FBDF /* Search-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Search-25.png"; sourceTree = "<group>"; };
 		406D11A61C25AF6D0041FBDF /* Gender Neutral User-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gender Neutral User-25.png"; sourceTree = "<group>"; };
 		406D11A71C25AF6D0041FBDF /* Megaphone-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Megaphone-25.png"; sourceTree = "<group>"; };
+		40DCF4461C2AC9FE000939FB /* SLR Back Side Filled-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SLR Back Side Filled-25.png"; sourceTree = "<group>"; };
+		40DCF4481C2ACA51000939FB /* Stack of Photos-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stack of Photos-25.png"; sourceTree = "<group>"; };
+		40DCF44D1C2ADC01000939FB /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		40DCF44E1C2ADC01000939FB /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		40DCF4501C2AE035000939FB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40DCF4511C2AE035000939FB /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,8 +101,11 @@
 		406D115D1C25A4710041FBDF = {
 			isa = PBXGroup;
 			children = (
+				40DCF4501C2AE035000939FB /* AVFoundation.framework */,
 				406D11A61C25AF6D0041FBDF /* Gender Neutral User-25.png */,
+				40DCF4481C2ACA51000939FB /* Stack of Photos-25.png */,
 				406D11A71C25AF6D0041FBDF /* Megaphone-25.png */,
+				40DCF4461C2AC9FE000939FB /* SLR Back Side Filled-25.png */,
 				406D11A01C25AD7E0041FBDF /* Camera-25.png */,
 				406D11A11C25AD7E0041FBDF /* Home-25.png */,
 				406D11A21C25AD7E0041FBDF /* Search-25.png */,
@@ -125,6 +138,8 @@
 				406D11771C25A4710041FBDF /* LaunchScreen.storyboard */,
 				406D117A1C25A4710041FBDF /* Info.plist */,
 				406D11691C25A4710041FBDF /* Supporting Files */,
+				40DCF44D1C2ADC01000939FB /* CameraViewController.h */,
+				40DCF44E1C2ADC01000939FB /* CameraViewController.m */,
 			);
 			path = Project;
 			sourceTree = "<group>";
@@ -222,7 +237,7 @@
 				TargetAttributes = {
 					406D11651C25A4710041FBDF = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = VM4JP3A2WS;
+						DevelopmentTeam = 4YL2YNAUKE;
 					};
 					406D117E1C25A4710041FBDF = {
 						CreatedOnToolsVersion = 7.2;
@@ -262,11 +277,13 @@
 				406D11791C25A4710041FBDF /* LaunchScreen.storyboard in Resources */,
 				406D11A81C25AF6D0041FBDF /* Gender Neutral User-25.png in Resources */,
 				406D11A31C25AD7E0041FBDF /* Camera-25.png in Resources */,
+				40DCF4491C2ACA51000939FB /* Stack of Photos-25.png in Resources */,
 				406D11A91C25AF6D0041FBDF /* Megaphone-25.png in Resources */,
 				406D11A51C25AD7E0041FBDF /* Search-25.png in Resources */,
 				406D11A41C25AD7E0041FBDF /* Home-25.png in Resources */,
 				406D11761C25A4710041FBDF /* Assets.xcassets in Resources */,
 				406D11741C25A4710041FBDF /* Main.storyboard in Resources */,
+				40DCF4471C2AC9FE000939FB /* SLR Back Side Filled-25.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				406D11711C25A4710041FBDF /* ViewController.m in Sources */,
+				40DCF44F1C2ADC01000939FB /* CameraViewController.m in Sources */,
 				406D116E1C25A4710041FBDF /* AppDelegate.m in Sources */,
 				406D116B1C25A4710041FBDF /* main.m in Sources */,
 			);
@@ -435,9 +453,9 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Project/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = adiazarya.Project;
+				PRODUCT_BUNDLE_IDENTIFIER = adiazarya;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -450,9 +468,9 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Project/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = adiazarya.Project;
+				PRODUCT_BUNDLE_IDENTIFIER = adiazarya;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};

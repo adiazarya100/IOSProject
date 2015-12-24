@@ -87,7 +87,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-291" y="-971"/>
+            <point key="canvasLocation" x="-215" y="-983"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ej7-cU-cti">
@@ -171,17 +171,44 @@
             </objects>
             <point key="canvasLocation" x="273" y="-971"/>
         </scene>
-        <!--View Controller-->
+        <!--Camera View Controller-->
         <scene sceneID="eaJ-A0-G3M">
             <objects>
-                <viewController id="ZYn-dG-pSt" sceneMemberID="viewController">
+                <viewController id="ZYn-dG-pSt" customClass="CameraViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pbi-ZA-tKQ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.84002171439999995" green="0.56078788570000004" blue="1" alpha="0.85005387929999998" colorSpace="calibratedRGB"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="xAI-r2-Dy8">
+                                <rect key="frame" x="9" y="459" width="141" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="  Take Photo" image="SLR Back Side Filled-25.png">
+                                    <color key="titleColor" red="0.0" green="0.40228585020000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="takePhoto:" destination="ZYn-dG-pSt" eventType="touchUpInside" id="oyX-pK-CXu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="2lK-wQ-ec1">
+                                <rect key="frame" x="169" y="460" width="145" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="  select photo" image="Stack of Photos-25.png">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="8KF-rY-DPn">
+                                <rect key="frame" x="0.0" y="20" width="320" height="288"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="Camera-25.png" selectedImage="AAED3B98-FD17-4DBB-978B-7503A655030F" id="2R2-M2-3na"/>
+                    <tabBarItem key="tabBarItem" title="" image="Camera-25.png" selectedImage="D14B3436-467E-4A7F-AD8A-BC4CE0340BB5" id="2R2-M2-3na"/>
                     <navigationItem key="navigationItem" id="l0c-UJ-cnf"/>
+                    <connections>
+                        <outlet property="FramForCapture" destination="Pbi-ZA-tKQ" id="nUe-zt-aFR"/>
+                        <outlet property="imageView" destination="8KF-rY-DPn" id="UO0-B2-mle"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hEv-Ef-hPC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -189,7 +216,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="AAED3B98-FD17-4DBB-978B-7503A655030F" width="25" height="25">
+        <image name="Camera-25.png" width="25" height="25"/>
+        <image name="D14B3436-467E-4A7F-AD8A-BC4CE0340BB5" width="25" height="25">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGOjtYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK0HCBEW
 GxwgISgrLjQ3VSRudWxs1AkKCwwNDg8QViRjbGFzc1xOU0ltYWdlRmxhZ3NWTlNSZXBzV05TQ29sb3KA
@@ -300,10 +328,11 @@ oACiAKQApgCoAK0AxADGAMgXnhejF64XtxfKF84X2RfiF+cX7xfyF/cYBhgKGBEYGRgmGCsYLRgvGDQY
 PBg/GEQYTBhPGGEYZBhpAAAAAAAAAgEAAAAAAAAAPgAAAAAAAAAAAAAAAAAAGGs
 </mutableData>
         </image>
-        <image name="Camera-25.png" width="25" height="25"/>
         <image name="Gender Neutral User-25.png" width="25" height="25"/>
         <image name="Home-25.png" width="25" height="25"/>
         <image name="Megaphone-25.png" width="25" height="25"/>
+        <image name="SLR Back Side Filled-25.png" width="25" height="25"/>
         <image name="Search-25.png" width="25" height="25"/>
+        <image name="Stack of Photos-25.png" width="25" height="25"/>
     </resources>
 </document>
