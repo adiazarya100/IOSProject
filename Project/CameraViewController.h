@@ -9,8 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface CameraViewController : UIViewController
+
+
+- (IBAction)takePhoto:(id)sender;
 @property (strong, nonatomic) IBOutlet UIView *FramForCapture;
 @property (strong, nonatomic) IBOutlet UIImageView *imageView;
-- (IBAction)takePhoto:(id)sender;
 
 @end
